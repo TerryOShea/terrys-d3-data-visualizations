@@ -1,0 +1,46 @@
+.container {
+  margin: 30px auto;
+}
+
+.title, .source {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  position: absolute;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  line-height: 19px;
+}
+
+.smaller {
+  font-size: 20px;
+}
+
+.infobox {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px 20px;
+  background: black;
+  opacity: 0;
+  line-height: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.axis text {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
