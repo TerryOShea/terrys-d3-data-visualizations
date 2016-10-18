@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+}
+
+.title-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 15px;
+  line-height: 10px;
+}
+
+.source {
+  text-decoration: none;
+}
+
+.stroke {
+  stroke: #777;
+  stroke-opacity: 0.5;
+  stroke-width: 0.5px;
+}
+
+.fill {
+  fill: #eef7fa;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #fff;
+  stroke: #777;
+}
+
+.meteor {
+  stroke: white;
+  stroke-width: 1px;
+}
+.meteor:hover {
+  cursor: pointer;
+}
