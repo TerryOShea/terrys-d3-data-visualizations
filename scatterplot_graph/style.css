@@ -1,0 +1,65 @@
+.axis text, .title, .legend, .infobox {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  width: 1000px;
+  height: 600px;
+  opacity: .7;
+  position: relative;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.legend {
+  position: absolute;
+  top: -5px;
+  left: 715px;
+  font-size: 14px;
+}
+
+.infobox {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  top: 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  opacity: 0;
+  z-index: 2;
+  line-height: 0;
+}
+
+.infobox > span {
+  display: flex;
+  align-items: center;
+}
+
+.doper {
+  fill: red;
+  cursor: pointer;
+}
+
+.non {
+  fill: green;
+}
+
+.hover {
+  r: 8;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
