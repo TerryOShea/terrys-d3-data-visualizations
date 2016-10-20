@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.title, .axis text, .source, .infobox {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.bar {
+  fill: #9cf;
+}
+
+.hoverbar {
+  fill: #cce6ff;
+}
+
+.axis text {
+  font-size: 16px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.source {
+  margin: 10px auto;
+}
+
+.infobox {
+  width: 135px;
+  height: 50px;
+  border-radius: 5px;
+  background: #cce6ff;
+  position: absolute;
+  opacity: 0;
+  line-height: 0;
+}
